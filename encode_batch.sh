@@ -10,14 +10,14 @@ CFG_FILE_ORIG="cfg/encoder_allintra.cfg"
 
 # Template for the sequnce name and sequences to be tested (only 1st frame as in PNN paper)
 #InputFile                     : /home/attilio/repos/HM-16.20_nn/sequences/Kimono1_1920x1080_fps_2.yuv
-SEQUENCE_BASE="./sequences/EPFL_RGB/"
-ENCODINGS_DIR="${PWD}/encodings/Kernels3/pred16/70e"
+SEQUENCE_BASE="/mnt/c/Users/lucas/Documents/TCC/scratch/Datasets/EPFL_RGB/"
+ENCODINGS_DIR="${PWD}/encodings/Kernels3/32x64/mem"
 #SEQUENCE_LIST="Danger-de-Mort Rusty-Fence"
 #SEQUENCE_LIST="Ankylosaurus-Diplodocus Bikes Black-Fence Ceiling-Light Danger-de-Mort Friends-1 Houses-Lake Reeds Rusty-Fence Slab-Lake Swans-2 Vespa"
 #SEQUENCE_LIST="Bee_1.png     Bumblebee.png     Corridor.png       Duck.png    LensFlare.png         LowLight_Roundabout.png  Mini.png         Plushies.png  Sculpture.png  Steps.png      Texture.png
 #Bee_2.png     Checkerboard.png  DistantChurch.png  Framed.png  LowLight_Flowers.png  LowLight_Street.png      MotionBlur.png   Posts.png     Sign.png       SunnyRose.png  TinyMoon.png
 #Building.png  ChezEdgar.png     Doves.png          Fruits.png  LowLight_House.png    MessyDesk.png            Perspective.png  Rond.png      Statue.png     Symmetric.png  Translucent.png"
-SEQUENCE_LIST="Ankylosaurus-Diplodocus Bikes Black-Fence Ceiling-Light Danger-de-Mort Friends-1 Houses-Lake Reeds Rusty-Fence Slab-Lake Swans-2 Vespa"
+SEQUENCE_LIST="Ankylosaurus_4976x3456 Bikes_4976x3456 Black-Fence_4976x3456 Ceiling-Light_4976x3456 Danger-de-Mort_4976x3456 Friends-1_4976x3456 Houses-Lake_4976x3456 Reeds_4976x3456 Rusty-Fence_4976x3456 Slab-Lake_4976x3456 Swans-2_4976x3456 Vespa_4976x3456"
 #SEQUENCE_LIST="Bikes"
 
 #SEQUENCE_BASE="/home/shared/SVT-HD/SEQUENCE_1920x1080_fps_2.yuv"
@@ -104,7 +104,7 @@ for QP in $QP_LIST; do
   if [ $MODE == "ref" ];
     then NN_BASE_PORT="0"
   else
-    NN_BASE_PORT="7000"
+    NN_BASE_PORT="8000"
     # Querying the server(s) about commandline params
     echo "" | nc -u -W 1 'localhost' $((sc$NN_BASE_PORT+32)) > "${OUT_DIR}/server_32.log"
     echo "" | nc -u -W 1 'localhost' $(($NN_BASE_PORT+16)) > "${OUT_DIR}/server_16.log"
@@ -127,3 +127,4 @@ for QP in $QP_LIST; do
 done
 done
 done
+ 

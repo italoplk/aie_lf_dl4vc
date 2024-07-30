@@ -32,7 +32,7 @@ typedef       short           Pel;               ///< pixel type
 // Defines which CUs are predicted by the NN according to their size (by default, none)
 // AF TODO this must be selectable at runtime
 #define NN_INTRA_32 1
-#define NN_INTRA_16 1
+#define NN_INTRA_16 0
 #define NN_INTRA_8  0
 #define NN_INTRA_4  0
 

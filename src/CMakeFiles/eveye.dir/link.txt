@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libeveye.a CMakeFiles/eveye.dir/eveye.c.o CMakeFiles/eveye.dir/eveye_bsw.c.o CMakeFiles/eveye.dir/eveye_eco.c.o CMakeFiles/eveye.dir/eveye_mode.c.o CMakeFiles/eveye.dir/eveye_networking.c.o CMakeFiles/eveye.dir/eveye_pinter.c.o CMakeFiles/eveye.dir/eveye_pintra.c.o CMakeFiles/eveye.dir/eveye_sad.c.o CMakeFiles/eveye.dir/eveye_tbl.c.o CMakeFiles/eveye.dir/eveye_tq.c.o CMakeFiles/eveye.dir/eveye_util.c.o
+/usr/bin/ranlib ../lib/libeveye.a

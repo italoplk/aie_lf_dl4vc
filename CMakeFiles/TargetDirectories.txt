@@ -1,0 +1,13 @@
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/src/CMakeFiles/evey.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/src/CMakeFiles/eveye.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/src/CMakeFiles/eveyd.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/app/CMakeFiles/eveya_encoder.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/app/CMakeFiles/eveya_decoder.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/app/CMakeFiles/eveya_bitstream_merge.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/app/CMakeFiles/echo_server.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/app/CMakeFiles/edit_cache.dir
+/mnt/c/Users/lucas/Documents/TCC/aie_lf_dl4vc/app/CMakeFiles/rebuild_cache.dir

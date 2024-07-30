@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libeveyd.a CMakeFiles/eveyd.dir/eveyd.c.o CMakeFiles/eveyd.dir/eveyd_bsr.c.o CMakeFiles/eveyd.dir/eveyd_eco.c.o CMakeFiles/eveyd.dir/eveyd_util.c.o
+/usr/bin/ranlib ../lib/libeveyd.a

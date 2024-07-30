@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libevey.a CMakeFiles/evey.dir/evey.c.o CMakeFiles/evey.dir/evey_inter.c.o CMakeFiles/evey.dir/evey_intra.c.o CMakeFiles/evey.dir/evey_itdq.c.o CMakeFiles/evey.dir/evey_lf.c.o CMakeFiles/evey.dir/evey_picman.c.o CMakeFiles/evey.dir/evey_port.c.o CMakeFiles/evey.dir/evey_recon.c.o CMakeFiles/evey.dir/evey_tbl.c.o CMakeFiles/evey.dir/evey_util.c.o
+/usr/bin/ranlib ../lib/libevey.a

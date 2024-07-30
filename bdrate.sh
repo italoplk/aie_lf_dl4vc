@@ -101,7 +101,7 @@ for SEQUENCE in $SEQUENCE_LIST; do
 #  echo 'print ("BD-PSNR: %.4f" %(BD_PSNR(R1, PSNR1, R2, PSNR2)))' >> $PYTHON_SCRIPT
 #  echo 'print ("BD-RATE: %.4f" %(BD_RATE(R1, PSNR1, R2, PSNR2)))' >> $PYTHON_SCRIPT
   echo 'print ("%.2f\t\t%.2f" %(BD_RATE(R1, PSNR1, R2, PSNR2), BD_PSNR(R1, PSNR1, R2, PSNR2)))' >> $PYTHON_SCRIPT
-  PYTHONPATH="${PYTHONPATH}:$(pwd)/Bjontegaard_metric" python < $PYTHON_SCRIPT | tee -a bdrate.log
+  PYTHONPATH="${PYTHONPATH}:$(pwd)/Bjontegaard_metric" python3 < $PYTHON_SCRIPT | tee -a bdrate.log
 done
 
 # Average BDrate
